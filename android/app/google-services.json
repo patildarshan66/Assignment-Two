@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "998816247268",
+    "project_id": "tutorbin-76068",
+    "storage_bucket": "tutorbin-76068.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998816247268:android:28a5492f6e7e1713a0abf1",
+        "android_client_info": {
+          "package_name": "com.example.tutorbin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998816247268-ebopfqg4486imegklue3dh9846kcejst.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tutorbin",
+            "certificate_hash": "0a3e3897f51e032ad4f27a43dd523766386842e3"
+          }
+        },
+        {
+          "client_id": "998816247268-evm3mr0hh10ifhbtl322ddac7nivh2d1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBC-MHYzcxA3aKQxm49g35bV2mJpG8XlZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998816247268-evm3mr0hh10ifhbtl322ddac7nivh2d1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
