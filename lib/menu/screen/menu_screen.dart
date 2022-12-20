@@ -57,6 +57,7 @@ class _MenuScreenState extends State<MenuScreen> {
                           title: 'Popular Items',
                           subCategoriesLen: popularItemsLen,
                           subCategoryList: _menuScreenController.popularItem,
+                          isPopularItem: true,
                         );
                       }
                       String key = _menuScreenController.popularItem.isNotEmpty

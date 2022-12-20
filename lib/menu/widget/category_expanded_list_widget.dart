@@ -9,7 +9,8 @@ class CategoryExpandedListWidget extends StatelessWidget {
   final String title;
   final int subCategoriesLen;
   final List<CategoryModel> subCategoryList;
-  CategoryExpandedListWidget({Key? key, required this.title,required this.subCategoriesLen, required this.subCategoryList}) : super(key: key);
+  final bool isPopularItem;
+  CategoryExpandedListWidget({Key? key, required this.title,required this.subCategoriesLen, required this.subCategoryList, this.isPopularItem = false}) : super(key: key);
 
   final MenuScreenController _menuScreenController = Get.find<MenuScreenController>();
 
@@ -95,7 +96,7 @@ class CategoryExpandedListWidget extends StatelessWidget {
                               ],
                             ),
                             Text(
-                              "\$ ${category.price / category.quantity}",
+                              "\$ ${isPopularItem ? (category.price / category.quantity ) :category.price}",
                               style: TextStyle(
                                   fontSize: 18,
                                   color:
